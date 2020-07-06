@@ -18,7 +18,13 @@ Allow Phoenix to control your system
 System Preferences > Security & Privacy > Accessibility
 ```
 
+### Install Karabiner
+
 Download and install Karabiner Elements from [pqrs.org/osx/karabiner/](https://pqrs.org/osx/karabiner/)
+
+Create a `~/.config/phoenix/config/karabiner.json` and add the following contents:
+
+[gist.github.com/ezrafree/06bee291bdcf69a542878dd0651715a1](https://gist.github.com/ezrafree/06bee291bdcf69a542878dd0651715a1)
 
 ### Install Phoenix Config
 
