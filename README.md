@@ -127,13 +127,17 @@ log stream --process Phoenix
 
 ### Move Window to Space
 
-| `⇪` + `shift` + `[`        | Move focused window to previous space |
-| `⇪` + `shift` + `]`       | Move focused window to the next space  |
+| Shortcut            | Description                           |
+| ------------------- | ------------------------------------- |
+| `⇪` + `shift` + `[` | Move focused window to previous space |
+| `⇪` + `shift` + `]` | Move focused window to the next space |
 
 ### Move Window to Screen
 
-| `⇪` + `shift` + `left`        | Move focused window to screen on the left  |
-| `⇪` + `shift` + `right`       | Move focused window to screen on the right |
+| Shortcut                | Description                                |
+| ----------------------- | ------------------------------------------ |
+| `⇪` + `shift` + `left`  | Move focused window to screen on the left  |
+| `⇪` + `shift` + `right` | Move focused window to screen on the right |
 
 ### Alfred Space Switcher
 
