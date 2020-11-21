@@ -26,8 +26,8 @@ const MODAL_DURATION = 1;
 const MODAL_ANIMATION_DURATION = 0.2;
 const MODAL_WEIGHT = 24;
 
-const LEFT_WIDTH_PERCENTAGE = 40; // Set it to 50 if you want symmetric left and right sides' widths
-const TOP_HEIGHT_PERCENTAGE = 60; // Set it to 50 if you want symmetric top and bottom sides' heights
+const LEFT_WIDTH_PERCENTAGE = 78; // Set it to 50 if you want symmetric left and right sides' widths
+const TOP_HEIGHT_PERCENTAGE = 22; // Set it to 50 if you want symmetric top and bottom sides' heights
 
 const QUIT_BLACKLIST = ["Finder"];
 

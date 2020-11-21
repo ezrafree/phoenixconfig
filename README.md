@@ -91,12 +91,12 @@ log stream --process Phoenix
 
 ### Halves
 
-| Shortcut            | Description                          |
-| ------------------- | ------------------------------------ |
-| `⇪` + `[`           | Move window to left half of screen   |
-| `⇪` + `]`           | Move window to right half of screen  |
-| `⇪` + `shift` + `[` | Move window to top half of screen    |
-| `⇪` + `shift` + `]` | Move window to bottom half of screen |
+| Shortcut     | Description                          |
+| ------------ | ------------------------------------ |
+| `⇪` + `[`    | Move window to left half of screen   |
+| `⇪` + `]`    | Move window to right half of screen  |
+| `⇪` + `up`   | Move window to top half of screen    |
+| `⇪` + `down` | Move window to bottom half of screen |
 
 ### Vertical Thirds
 
@@ -138,12 +138,16 @@ log stream --process Phoenix
 | `⇪` + `shift` + `[` | Move focused window to previous space |
 | `⇪` + `shift` + `]` | Move focused window to the next space |
 
+> Note: Use these shortcuts when using the built-in display, or a single monitor.
+
 ### Move Window to Screen
 
 | Shortcut                | Description                                |
 | ----------------------- | ------------------------------------------ |
 | `⇪` + `shift` + `left`  | Move focused window to screen on the left  |
 | `⇪` + `shift` + `right` | Move focused window to screen on the right |
+
+> Note: Use these shortcuts when using three monitors.
 
 ### Alfred Space Switcher
 
