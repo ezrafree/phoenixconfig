@@ -62,14 +62,14 @@ log stream --process Phoenix
 
 ## Usage
 
-### Sides
+### Halves
 
 | Shortcut  | Description                             |
 | --------- | --------------------------------------- |
-| `⇪` + `↑` | Move window to the top side of screen   |
-| `⇪` + `→` | Move window to the right side of screen |
-| `⇪` + `↓` | Move window to the bottom side          |
-| `⇪` + `←` | Move window to the left side            |
+| `⇪` + `↑` | Move window to the top half of screen   |
+| `⇪` + `→` | Move window to the right half of screen |
+| `⇪` + `↓` | Move window to the bottom half          |
+| `⇪` + `←` | Move window to the left half            |
 
 ### Quadrant Corners
 
@@ -80,7 +80,7 @@ log stream --process Phoenix
 | `⇪` + `a` | Move window to the bottom-left corner  |
 | `⇪` + `s` | Move window to the bottom-right corner |
 
-### Percentage Corners
+### Percentage
 
 | Shortcut            | Description                                   |
 | ------------------- | --------------------------------------------- |
@@ -89,14 +89,16 @@ log stream --process Phoenix
 | `⇪` + `shift` + `d` | Move window to the custom bottom-left corner  |
 | `⇪` + `shift` + `f` | Move window to the custom bottom-right corner |
 
-### Halves
+### Percentage Sides
 
-| Shortcut     | Description                          |
-| ------------ | ------------------------------------ |
-| `⇪` + `[`    | Move window to left half of screen   |
-| `⇪` + `]`    | Move window to right half of screen  |
-| `⇪` + `up`   | Move window to top half of screen    |
-| `⇪` + `down` | Move window to bottom half of screen |
+| Shortcut            | Description                                           |
+| ------------------- | ----------------------------------------------------- |
+| `⇪` + `[`           | Move window to left percentage of screen              |
+| `⇪` + `]`           | Move window to right percentage of screen             |
+| `⇪` + `shift` + `[` | Move window to opposite of left percentage of screen  |
+| `⇪` + `shift` + `]` | Move window to opposite of right percentage of screen |
+
+> Note: The percentage sides options use the percentage value specified in `LEFT_WIDTH_PERCENTAGE` in `constants.js`.
 
 ### Vertical Thirds
 
@@ -151,6 +153,6 @@ log stream --process Phoenix
 
 ### Alfred Space Switcher
 
-| Shortcut  | Description              |
-| --------- | ------------------------ |
-| `⇪` + `⇪` | Lauch the space switcher |
+| Shortcut  | Description               |
+| --------- | ------------------------- |
+| `⇪` + `⇪` | Launch the space switcher |

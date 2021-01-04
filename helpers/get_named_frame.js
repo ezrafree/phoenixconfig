@@ -1,8 +1,10 @@
 /* GET NAMED FRAME */
 
 function getNamedFrame(name) {
-  const dTop = (TOP_HEIGHT_PERCENTAGE - 50) / 100,
+  const altDLeft = 100 - LEFT_WIDTH_PERCENTAGE,
+    dTop = (TOP_HEIGHT_PERCENTAGE - 50) / 100,
     dLeft = (LEFT_WIDTH_PERCENTAGE - 50) / 100,
+    dLeftAlt = (altDLeft - 50) / 100,
     dTopHalf = (50 - 50) / 100,
     dLeftHalf = (50 - 50) / 100;
 
@@ -12,10 +14,14 @@ function getNamedFrame(name) {
       return [0, 0, 1, 0.5 + dTop];
     case "right":
       return [0.5 + dLeft, 0, 0.5 - dLeft, 1];
+    case "right-alt":
+      return [0.5 + dLeftAlt, 0, 0.5 - dLeftAlt, 1];
     case "bottom":
       return [0, 0.5 + dTop, 1, 0.5 - dTop];
     case "left":
       return [0, 0, 0.5 + dLeft, 1];
+    case "left-alt":
+      return [0, 0, 0.5 + dLeftAlt, 1];
     /* CORNERS */
     case "top-left":
       return [0, 0, 0.5 + dLeft, 0.5 + dTop];

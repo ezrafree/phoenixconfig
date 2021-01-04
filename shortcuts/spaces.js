@@ -10,7 +10,7 @@ setKeyHandler("tab", HYPER_SHIFT, () => switchSpace(-1));
 /**
  * Move focused window to previous space
  */
-Key.on("[", HYPER_SHIFT, function () {
+Key.on(",", HYPER, function () {
   const window = Window.focused();
 
   const space = Space.active();
@@ -28,7 +28,7 @@ Key.on("[", HYPER_SHIFT, function () {
 /**
  * Move focused window to next space
  */
-Key.on("]", HYPER_SHIFT, function () {
+Key.on(".", HYPER, function () {
   const window = Window.focused();
 
   const space = Space.active();
